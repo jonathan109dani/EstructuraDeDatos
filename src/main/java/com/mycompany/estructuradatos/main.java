@@ -17,7 +17,28 @@ public class main {
         //System.out.println(recursion.factorial(5));
         
         //Orden: int n, int arr[], int f, int i
-        System.out.println(recursion.buscarElemento(12,arr,arr.length-1,0));
+        //System.out.println(recursion.buscarElemento(12,arr,arr.length-1,0));
+        /*
+        pila Pila = new pila();
+        System.out.println(Pila.getLenght());
+        Pila.push(1);
+        System.out.println(Pila.getLenght());
+        Pila.push(7);
+        Pila.push(909090);
+        System.out.println(Pila.getLenght());
+        Pila.pop();
+        System.out.println(Pila.getLenght());*/
+        
+        queue cola1 = new queue();
+        cola1.insertar(5);
+        cola1.insertar(11);
+        cola1.insertar(2);
+        cola1.insertar(10);
+        cola1.insertar(12);
+        cola1.insertar(55);
+        cola1.extraer();
+        cola1.isEmpty();
+        System.out.println(cola1.contar());
     }
     
 }
